@@ -10,6 +10,7 @@ namespace SystemTrayMessage.Partials.Interop
 {
     public class WinSink : IDisposable
     {
+#pragma warning disable
         #region members
 #pragma warning disable
 
@@ -111,7 +112,6 @@ namespace SystemTrayMessage.Partials.Interop
         }
 
         #endregion
-
 
         #region Dispose
 
